@@ -1,0 +1,23 @@
+body {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  justify-content: center;
+  padding-top: 50px;
+
+  gap: 10px;
+}
+
+.inner {
+  display: flex;
+  gap: 10px;
+  font-size: 17px;
+}
+
+.inner input {
+  padding: 5px 10px;
+}
+
+.inner .result {
+  margin-left: 20px;
+}
